@@ -1,0 +1,87 @@
+body {
+	padding:0;
+	border:0;
+	margin:0 0 0 0;
+	font-family:basictitlefont;	
+	background-color:rgb(255,255,255);
+}
+ul {
+	padding:0;
+	border:0;
+	margin:0 0 0 0;	
+}
+@font-face{
+	font-family:"basictitlefont";
+	src: url("../basictitlefont.ttf");	
+}
+p{
+	font-family: "basictitlefont";
+}
+/* ------------- masthead styles */	
+
+.header{
+	height: 125px;
+	background-color:rgb(255,255,255);
+	border-bottom:4px solid #000000;
+}
+.logo{
+	margin:5px auto 0 5%;
+}
+.navbar{
+	margin:-90px auto 0 5%;
+}
+li {
+	margin:0 100px 0 auto;
+	color:#000000;
+	font-size: 25px;
+	float:right;
+	font-family:basictitlefont;
+	display:inline;	
+	font-weight:bold;
+}
+/* ------------- main column styles */
+.property-image img{
+	width:47%;
+	height:533px;
+	float:right;
+	overflow:hidden;
+	padding:30px;
+}
+.description{
+	width:45%;
+	height:500px;
+	float:left;
+	padding:20px 0 0 40px;;
+}
+.description li{
+	font-size:20px;
+	float:left;
+	padding-right:350px;
+}
+/* -------------  links */
+a:link{
+	color:rgb(0,0,0);
+	text-decoration:none;
+}
+a:visited{
+	color:rgb(0,0,0);
+	text-decoration:none;
+}
+a:hover{
+	color:rgb(160,209,105);
+	text-decoration:none;
+}	
+a:active{
+	color:rgb(0,0,0);
+	text-decoration:none;
+}
+/* ------------- footer styles */
+.footer{
+	padding:10px;
+	height:200px;
+	background-color:#000000;
+	color:#ffffff;
+	font-size:18px;
+	margin-top:600px;
+}
+

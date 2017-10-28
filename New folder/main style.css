@@ -1,0 +1,105 @@
+body {
+	padding:0;
+	border:0;
+	margin:0 0 0 0;
+	font-family:basictitlefont;	
+	background-color:rgb(255,255,255);
+}
+ul {
+	padding:0;
+	border:0;
+	margin:0 0 0 0;	
+}
+@font-face{
+	font-family:"basictitlefont";
+	src: url("basictitlefont.ttf");	
+}
+p{
+	font-family: "basictitlefont";
+}
+/* ------------- masthead styles */	
+
+.header{
+	height: 125px;
+	background-color:rgb(255,255,255);
+	border-bottom:4px solid #000000;
+}
+.logo{
+	margin:5px auto 0 0.10%;
+}
+.navbar{
+	margin:-90px auto 0 5%;
+}
+li {
+	margin:0 15px 0 auto;
+	color:#000000;
+	font-size: 25px;
+	float:right;
+	font-family:basictitlefont;
+	display:inline;	
+	font-weight:bold;
+}
+/* ------------- main column styles */
+
+.column1{
+	width:49.8%;
+	float:left;
+	border-right:1.5px solid #000000;
+	overflow:hidden;
+}
+.column1 .property{
+	height:350px;
+	border:0px solid #000000;
+}
+.column1 .property .image img{
+	width:50%;
+	height:300px;
+	float:right;
+	padding:20px 20px 20px 0;
+	overflow:hidden;
+}
+.column1 .property .text{
+	width:40%;
+	height:300px;
+	float:left;
+	padding:20px 0 0 20px;
+}
+.column2{
+	width:49.8%;
+	float:right;
+	border-left:1.5px solid #000000;
+	overflow:hidden;	
+}
+.column2 .property{
+	height:350px;
+	border:1px soild #000000;
+}
+.column2 .property .image img{
+	width:50%;
+	height:300px;
+	float:right;
+	padding:20px 20px 20px 0;
+	overflow:hidden;
+}
+.column2 .property .text{
+	padding:20px 0 0 20px;
+	width:40%;
+	height:300px;
+	float:left;
+}
+/* -------------  links */
+a:link, a:visited {
+	color: rgb(0,0,0);
+	text-decoration: none;
+	}
+
+a:hover{
+	color:rgb(160,209,105);
+	text-decoration:none;
+}	
+a:active{
+	color:rgb(0,0,0);
+}
+/* ------------- footer styles */
+
+
